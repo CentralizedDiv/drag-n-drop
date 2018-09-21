@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Verdana';
+}
+div {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;    
+    font-size: 12px;
+    text-align: center;
+}
+
+#title {
+    margin:20px;
+    text-align:center;
+}
+.droppable {
+    width:120px;
+    height:100px;
+    line-height: 100px;
+    border:1px dashed #969696;
+    border-radius:15px;
+    margin:5px;
+    display:inline-block;
+}
+
+#droppable-area {
+    margin:auto;
+    width:270px;
+}
+
+#draggable {
+    width: 80px;
+    position:absolute;
+    background-color:#fff;
+    height: 40px;
+    line-height: 40px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.14), 0 3px 20px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    border-radius: 15px;
+    transition: all .4s ease 0s;
+    cursor:pointer;
+}
